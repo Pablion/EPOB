@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>MD test</title>
+      <link href="/2020/06/21/MD-test/"/>
+      <url>/2020/06/21/MD-test/</url>
+      
+        <content type="html"><![CDATA[<h1 id="ENG-VER"><a href="#ENG-VER" class="headerlink" title="ENG VER"></a>ENG VER</h1><h1 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h1><h2 id="Sub-heading"><a href="#Sub-heading" class="headerlink" title="Sub-heading"></a>Sub-heading</h2><p>Paragraphs are separated<br>by a blank line.</p><p>Two spaces at the end of a line<br>produces a line break.</p><p>Text attributes <em>italic</em>,<br><strong>bold</strong>, <code>monospace</code>.</p><p>Horizontal rule:</p><hr><p>Strikethrough:<br><del>strikethrough</del></p><p>Bullet list:</p><ul><li>apples</li><li>oranges</li><li>pears</li></ul><p>Numbered list:</p><ol><li>lather</li><li>rinse</li><li>repeat</li></ol><p>An <a href="http://example.com" target="_blank" rel="noopener">example</a>.</p><p><img src="Icon-pictures.png" alt="Image" title="icon"></p><blockquote><p>Markdown uses email-style &gt; characters for blockquoting.</p></blockquote><p>Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.</p><h1 id="中文版本"><a href="#中文版本" class="headerlink" title="中文版本"></a>中文版本</h1><h1 id="一级標題"><a href="#一级標題" class="headerlink" title="一级標題"></a>一级標題</h1><h2 id="二级標題"><a href="#二级標題" class="headerlink" title="二级標題"></a>二级標題</h2><p>段落以空白行分隔。</p><p>行末兩個空格  産生斷行。</p><p>文本屬性：_斜體_、<br><strong>粗體</strong>、<code>等寬字型Monospace</code>。</p><p>水平線：</p><hr><p>列表：</p><ul><li>張三</li><li>李四</li><li>王二</li></ul><p>編號列表：</p><ol><li>不論</li><li>三七</li><li>二十一</li></ol><p><a href="http://example.com" target="_blank" rel="noopener">連結</a></p><p><img src="Icon-pictures.png" alt="圖" title="icon"></p><blockquote><p>Markdown使用電郵用字元「&gt;」來引用。</p></blockquote><p>行間<abbr title="Hypertext Markup Language">HTML</abbr>亦受支援。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/06/20/hello-world/"/>
+      <url>/2020/06/20/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
