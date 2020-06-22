@@ -4,9 +4,74 @@
   
     
     <entry>
+      <title>file name rule</title>
+      <link href="/2020/0622-file-name-rule/"/>
+      <url>/2020/0622-file-name-rule/</url>
+      
+        <content type="html"><![CDATA[<h1 id="固定名称"><a href="#固定名称" class="headerlink" title="固定名称"></a>固定名称</h1><p>#GENE<br>#CERT</p><h1 id="动态"><a href="#动态" class="headerlink" title="动态"></a>动态</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VScode</title>
+      <link href="/2020/0622-VScode/"/>
+      <url>/2020/0622-VScode/</url>
+      
+        <content type="html"><![CDATA[<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul><li>FROM: <a href="https://juejin.im/post/5cb87c6e6fb9a068a03af93a#heading-81" target="_blank" rel="noopener">https://juejin.im/post/5cb87c6e6fb9a068a03af93a#heading-81</a><br>GitLens<br>Chinese (Simplified) Language Pack for Visual Studio Code</li></ul><h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><ul><li><p>中文标点断句</p><pre><code>&quot;editor.wordSeparators&quot;: &quot;`~!@#$%^&amp;*()-=+[{]}\\|;:&apos;\&quot;,.&lt;&gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗&quot;,`~!@#$%^&amp;*()-=+[{]}\\|;:&apos;\&quot;,.&lt;&gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗</code></pre></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Math</title>
+      <link href="/2020/0622-Math/"/>
+      <url>/2020/0622-Math/</url>
+      
+        <content type="html"><![CDATA[<h2 id="常用缩写"><a href="#常用缩写" class="headerlink" title="常用缩写"></a>常用缩写</h2><p>WLOG: without loss of generality  |  Sin pérdida de generalidad<br>BWOC | by way of contradiction<br>sps | suppose</p><h2 id="读音"><a href="#读音" class="headerlink" title="读音"></a>读音</h2><p>$N_O$ N-nought n subscript zero N-zero N-null<br>Aleph-nought<br>aleph-null</p><p>backticks ``</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Configurations</title>
+      <link href="/2020/0622-Configurations/"/>
+      <url>/2020/0622-Configurations/</url>
+      
+        <content type="html"><![CDATA[<h1 id="我的配置"><a href="#我的配置" class="headerlink" title="我的配置"></a>我的配置</h1><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>_config.yml</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">permalink: :year&#x2F;:month:day-:title&#x2F;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo</title>
+      <link href="/2020/0622-Hexo/"/>
+      <url>/2020/0622-Hexo/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Hexo经验："><a href="#Hexo经验：" class="headerlink" title="Hexo经验："></a>Hexo经验：</h2><ul><li>Spawn failed：没有配置GitHub用户信息</li><li>JSON Front-matter<br>除了 YAML 外，你也可以使用 JSON 来编写 Front-matter，只要将 — 代换成 ;;; 即可。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;title&quot;: &quot;Hello World&quot;,</span><br><span class="line">&quot;date&quot;: &quot;2013&#x2F;7&#x2F;13 20:46:25&quot;</span><br><span class="line">;;;</span><br></pre></td></tr></table></figure></li><li>链接地址在文件夹目录中或浏览器地址栏中复制。EG：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[link](&#x2F;2020&#x2F;0621-MD-test&#x2F; &#39;tooltip&#39;)</span><br></pre></td></tr></table></figure>以下的是服务器端用的，不能在MD中用<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo.locals.get(&#39;posts&#39;)</span><br><span class="line">&lt;%- url_for(path, [option]) %&gt;</span><br></pre></td></tr></table></figure></li></ul><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a><a href=":https://hexo.io/zh-cn/docs/plugins.html">插件</a></h2><p>  安装的时候不用变更<code>-config.yml</code></p><h2 id="过程记录"><a href="#过程记录" class="headerlink" title="过程记录"></a>过程记录</h2><ul><li>换了MD的语法，用了新插件 <a href="https://github.com/niemingzhao/hexo-renderer-markdown" target="_blank" rel="noopener">https://github.com/niemingzhao/hexo-renderer-markdown</a><br>多了很多anchorSymbol，本来想卸载，后来发现不用卸载，可以直接在_config.yml中设置。<br>设置之后发现 hexo generate 不能render了。<br>只能去掉。这个插件也太坑了。前后花了四个多小时。啥都没做。<br>最后装了一个 <a href="https://github.com/LouisBarranqueiro/hexo-footnotes" target="_blank" rel="noopener" title="GitHub"><code>hexo-footnotes</code></a> 就解决了。</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MATLAB</title>
-      <link href="/2020/06/21/MATLAB/"/>
-      <url>/2020/06/21/MATLAB/</url>
+      <link href="/2020/0621-MATLAB/"/>
+      <url>/2020/0621-MATLAB/</url>
       
         <content type="html"><![CDATA[<p>问题</p><ul><li><input disabled="" type="checkbox"> matlab 为什么要有cell类型</li></ul><p>需求</p><ul><li><input disabled="" type="checkbox"> 从本地文件上传</li></ul>]]></content>
       
@@ -18,10 +83,10 @@
     
     <entry>
       <title>Markdown</title>
-      <link href="/2020/06/21/Markdown/"/>
-      <url>/2020/06/21/Markdown/</url>
+      <link href="/2020/0621-Markdown/"/>
+      <url>/2020/0621-Markdown/</url>
       
-        <content type="html"><![CDATA[<h1 id="经验"><a href="#经验" class="headerlink" title="经验"></a>经验</h1><ul><li>不同网站的解析方式不同 不知道hexo是怎么解释的，有没有文档<br>如果多次引用放在最前</li></ul><p><code>&lt;!--用html注释--&gt;</code> | <!--用html注释--></p><h1 id="测试过的技巧"><a href="#测试过的技巧" class="headerlink" title="测试过的技巧"></a>测试过的技巧</h1><h3 id="通用"><a href="#通用" class="headerlink" title="通用"></a>通用</h3><table><thead><tr><th align="left">hexo</th><th align="right">VScode</th><th align="center">CSDN</th></tr></thead><tbody><tr><td align="left"><code>[^sth]</code></td><td align="right">只隐藏后面第一行</td><td align="center">会隐藏全部有缩进的内容</td></tr><tr><td align="left"><code>[&lt;sth]</code> <code>[&gt;sth]</code></td><td align="right">只隐藏后面第一行</td><td align="center">只隐藏后面第一行</td></tr><tr><td align="left"><a href="https://blog.csdn.net/wcy23580/article/details/84885989" target="_blank" rel="noopener"><code>*[sth]</code></a></td><td align="right">无效</td><td align="center">无效</td></tr><tr><td align="left"><code>#5</code></td><td align="right">没有用</td><td align="center"></td></tr><tr><td align="left"><code>; 注释</code> <code>；注释</code> <code>: 注释</code></td><td align="right">全都无效</td><td align="center"></td></tr><tr><td align="left"><code>[^x]</code>+<code>[^x]:</code></td><td align="right">引用。 通用的放在最后吧。</td><td align="center"></td></tr><tr><td align="left">别人没提到的:</td><td align="right"></td><td align="center"></td></tr><tr><td align="left">搜索用关键字： Markdown tooltip</td><td align="right"></td><td align="center"></td></tr><tr><td align="left">隐藏式注释 <code>[show](&lt;&gt; &#39;hide&#39;)</code> <a href="" title="hide">show</a></td><td align="right"></td><td align="center"></td></tr><tr><td align="left">是在这学的 (<a href="https://assemble.io/docs/Cheatsheet-Markdown.html" target="_blank" rel="noopener">https://assemble.io/docs/Cheatsheet-Markdown.html</a>)</td><td align="right"></td><td align="center"></td></tr><tr><td align="left">用了超链接的格式 其中<code>&lt;&gt;</code> 是网址 可以用<code>#</code>代替（应该会干扰书签Named Anchors）</td><td align="right"></td><td align="center"></td></tr></tbody></table><h3 id="数学-LaTeX"><a href="#数学-LaTeX" class="headerlink" title="数学- $ \LaTeX $"></a>数学- <a href="" title="LaTex">$ \LaTeX $</a></h3><p>行内公式： $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$<br>块级公式： $$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p><h3 id="流程图-maxiang"><a href="#流程图-maxiang" class="headerlink" title="流程图^maxiang"></a>流程图<a href="(https://maxiang.io/)">^maxiang</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st&#x3D;&gt;start: Start</span><br><span class="line">e&#x3D;&gt;end</span><br><span class="line">op&#x3D;&gt;operation: My Operation</span><br><span class="line">cond&#x3D;&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure><h3 id="时序图-maxiang"><a href="#时序图-maxiang" class="headerlink" title="时序图^maxiang"></a>时序图<a href="(https://maxiang.io/)">^maxiang</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure><h3 id="整体性的经验"><a href="#整体性的经验" class="headerlink" title="整体性的经验"></a>整体性的经验</h3><p>[]看来是特殊符号。<br>[]中的内容，发现的特殊用法记录一下。<br>各种开头的表现 正文中不显示会变成注释。<br>在vscode插件中和在hexo中表现不一致</p><h1 id="好用的学习网站"><a href="#好用的学习网站" class="headerlink" title="好用的学习网站"></a>好用的学习网站</h1><ul><li>很全的文档：<a href="https://assemble.io/docs/Cheatsheet-Markdown.html" target="_blank" rel="noopener">https://assemble.io/docs/Cheatsheet-Markdown.html</a></li><li>在线编译+中等文档<a href="(https://maxiang.io/)">^maxiang</a></li><li>Mac 下的工具 <a href="https://typora.io/" target="_blank" rel="noopener">https://typora.io/</a></li></ul><h1 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h1><p>之前一直想用来写各种笔记的东西原来就是Markdown。 早就听过一直没仔细看，亏了。<br>之前一直想建网站原来就应该用GitHub Pages，就因为差一个Hexo模板，在Google Sites里搞了半天。<br>因为之前一直<strong>没有仔细查过别人的经验</strong>，就自己想当然，竟然还想自己写一个。<br>Hexo发现是在<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">dantefung的博客</a>，找他的第一篇笔记（当时还不知道能搜索）。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="经验"><a href="#经验" class="headerlink" title="经验"></a>经验</h1><ul><li>不同网站的解析方式不同 不知道hexo是怎么解释的，有没有文档<br>如果多次引用放在最前</li></ul><p><code>&lt;!--用html注释--&gt;</code> | <!--用html注释--></p><h1 id="测试过的技巧"><a href="#测试过的技巧" class="headerlink" title="测试过的技巧"></a>测试过的技巧</h1><h3 id="通用"><a href="#通用" class="headerlink" title="通用"></a>通用</h3><table><thead><tr><th align="left">hexo</th><th align="right">VScode</th><th align="center">CSDN</th></tr></thead><tbody><tr><td align="left"><code>[^sth]</code></td><td align="right">只隐藏后面第一行</td><td align="center">会隐藏全部有缩进的内容</td></tr><tr><td align="left"><code>[&lt;sth]</code> <code>[&gt;sth]</code></td><td align="right">只隐藏后面第一行</td><td align="center">只隐藏后面第一行</td></tr><tr><td align="left"><a href="https://blog.csdn.net/wcy23580/article/details/84885989" target="_blank" rel="noopener"><code>*[sth]</code></a></td><td align="right">无效</td><td align="center">无效</td></tr><tr><td align="left"><code>#5</code></td><td align="right">没有用</td><td align="center"></td></tr><tr><td align="left"><code>; 注释</code> <code>；注释</code> <code>: 注释</code></td><td align="right">全都无效</td><td align="center"></td></tr><tr><td align="left"><code>[^x]</code>+<code>[^x]:</code></td><td align="right">引用。 通用的放在最后吧。</td><td align="center"></td></tr><tr><td align="left">别人没提到的:</td><td align="right"></td><td align="center"></td></tr><tr><td align="left">搜索用关键字： Markdown tooltip</td><td align="right"></td><td align="center"></td></tr><tr><td align="left">隐藏式注释 <code>[show](&lt;&gt; &#39;hide&#39;)</code> <a href="" title="hide">show</a></td><td align="right"></td><td align="center"></td></tr><tr><td align="left">是在这学的 (<a href="https://assemble.io/docs/Cheatsheet-Markdown.html" target="_blank" rel="noopener">https://assemble.io/docs/Cheatsheet-Markdown.html</a>)</td><td align="right"></td><td align="center"></td></tr><tr><td align="left">用了超链接的格式 其中<code>&lt;&gt;</code> 是网址 可以用<code>#</code>代替（应该会干扰书签Named Anchors）</td><td align="right"></td><td align="center"></td></tr></tbody></table><h3 id="数学-LaTeX"><a href="#数学-LaTeX" class="headerlink" title="数学- $ \LaTeX $"></a>数学- <a href="" title="LaTex">$ \LaTeX $</a></h3><p>行内公式： $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$<br>块级公式： $$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p><h3 id="折叠区-fold"><a href="#折叠区-fold" class="headerlink" title="折叠区 ^fold"></a>折叠区 <a href="https://www.jianshu.com/p/3f13850d66ea" target="_blank" rel="noopener">^fold</a></h3><p>tag: 隐藏，展示</p><details><summary>一直显示</summary>展开折叠显示</details><p>不好用[^w3cfold]：<br>  [^w3cfold]:<a href="https://www.w3cschool.cn/lme/93u61srz.html" target="_blank" rel="noopener">https://www.w3cschool.cn/lme/93u61srz.html</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">region i &#123; information 示例</span><br><span class="line">← information icon</span><br><span class="line">&#125; region information 示例</span><br></pre></td></tr></table></figure><h3 id="流程图-maxiang"><a href="#流程图-maxiang" class="headerlink" title="流程图^maxiang"></a>流程图<a href="(https://maxiang.io/)">^maxiang</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st&#x3D;&gt;start: Start</span><br><span class="line">e&#x3D;&gt;end</span><br><span class="line">op&#x3D;&gt;operation: My Operation</span><br><span class="line">cond&#x3D;&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure><h3 id="时序图-maxiang"><a href="#时序图-maxiang" class="headerlink" title="时序图^maxiang"></a>时序图<a href="(https://maxiang.io/)">^maxiang</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure><h3 id="整体性的经验"><a href="#整体性的经验" class="headerlink" title="整体性的经验"></a>整体性的经验</h3><p>[]看来是特殊符号。<br>[]中的内容，发现的特殊用法记录一下。<br>各种开头的表现 正文中不显示会变成注释。<br>在vscode插件中和在hexo中表现不一致</p><h1 id="好用的学习网站"><a href="#好用的学习网站" class="headerlink" title="好用的学习网站"></a>好用的学习网站</h1><ul><li>很全的文档：<a href="https://assemble.io/docs/Cheatsheet-Markdown.html" target="_blank" rel="noopener">https://assemble.io/docs/Cheatsheet-Markdown.html</a></li><li>在线编译+中等文档<a href="(https://maxiang.io/)">^maxiang</a></li><li>Mac 下的工具 <a href="https://typora.io/" target="_blank" rel="noopener">https://typora.io/</a></li></ul><h1 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h1><p>之前一直想用来写各种笔记的东西原来就是Markdown。 早就听过一直没仔细看，亏了。<br>之前一直想建网站原来就应该用GitHub Pages，就因为差一个Hexo模板，在Google Sites里搞了半天。<br>因为之前一直<strong>没有仔细查过别人的经验</strong>，就自己想当然，竟然还想自己写一个。<br>Hexo发现是在<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">dantefung的博客</a>，找他的第一篇笔记（当时还不知道能搜索）。</p><p>backticks ``</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Example text here...</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -37,12 +102,24 @@
     
     <entry>
       <title>Hello World + 建站经验</title>
-      <link href="/2020/06/21/hello-world/"/>
-      <url>/2020/06/21/hello-world/</url>
+      <link href="/2020/0621-hello-world/"/>
+      <url>/2020/0621-hello-world/</url>
       
-        <content type="html"><![CDATA[<pre><code>line2</code></pre><h1 id="易用性改善"><a href="#易用性改善" class="headerlink" title="易用性改善"></a>易用性改善</h1><pre><code>搜狗输入法问题替换常用的 属性设置 常用 自定义标点设置 中文半角2020-6-21 11:19:42</code></pre><h1 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h1><pre><code>我的命名规范标准名称 | 备选中文名称 | 弃用名称Named Anchors | 书签 |tooltip | 弹出提示 |MD | Markdown</code></pre><p>终于把博客建起来了<br>最后采用的是github+<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>的<a href="https://www.hahack.com/hexo-theme-wixo/" target="_blank" rel="noopener">wixo</a>模板<br><a href="" title="这两天有点觉醒。最近都在做有用的事情，就没有继续写HabitU。感觉做什么事情都很顺畅，连洗澡都是。">一些废话</a><br>不过还没有适应Markdown。</p><h2 id="过程记录"><a href="#过程记录" class="headerlink" title="过程记录"></a>过程记录</h2><ol><li>Hexo部署：<a href="https://www.youtube.com/playlist?list=PLD5dyQmlN6xPqBV0cxO7zAe1C8OmDPqfX" target="_blank" rel="noopener">官网视频</a><ul><li>Hexo server 会 watch 改动，不需要-w。<a href="(https://hexo.io/docs/server.html)">^1</a></li></ul></li></ol><ol start="2"><li>部署到GitHub<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">dantefung</a></li><li>学习Markdown： <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Wikipedia</a><ul><li>英文版的Wiki中有两个跨行标题定义，更易懂。但是要注意标题前面必须有空行。</li></ul></li><li>删除GitHub的Repository：在Repository的Settings中，第一页最下面。</li></ol><h2 id="Hexo经验："><a href="#Hexo经验：" class="headerlink" title="Hexo经验："></a>Hexo经验：</h2><ul><li>Spawn failed：没有配置GitHub用户信息</li><li>JSON Front-matter<br>除了 YAML 外，你也可以使用 JSON 来编写 Front-matter，只要将 — 代换成 ;;; 即可。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;title&quot;: &quot;Hello World&quot;,</span><br><span class="line">&quot;date&quot;: &quot;2013&#x2F;7&#x2F;13 20:46:25&quot;</span><br><span class="line">;;;</span><br></pre></td></tr></table></figure></li></ul><h2 id="WOWs"><a href="#WOWs" class="headerlink" title="WOWs"></a>WOWs</h2><p>VScode中会配合Git显示有改动的行<br>程序员的梗</p><h2 id="其他易用性"><a href="#其他易用性" class="headerlink" title="其他易用性"></a>其他易用性</h2><ul><li>修改CMD字体 ：CMD标题 右键-&gt;属性-&gt;字体<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont</code><br>在右面找到<code>936</code>值双击打开，数值数据更改为<br><code>*YaHeiConsola</code>。</li></ul><h2 id="待完善"><a href="#待完善" class="headerlink" title="待完善"></a>待完善</h2><h3 id="2020-6-21"><a href="#2020-6-21" class="headerlink" title="2020-6-21"></a>2020-6-21</h3><ul><li><input disabled="" type="checkbox"> GitHub的readme</li><li><input disabled="" type="checkbox"> 添加GitHub Hexo Google等到AHK的hot string，查查有没有已有的hot string</li><li><input disabled="" type="checkbox"> 迁移google sites 数据</li><li><input disabled="" type="checkbox"> 选一个theme</li><li><input disabled="" type="checkbox"> Hexo的主题。</li><li><input disabled="" type="checkbox"> 看Git</li><li><input disabled="" type="checkbox"> 设置字体</li><li><input disabled="" type="checkbox"> Hexo Routing + 本文中MD跳转</li><li><input disabled="" type="checkbox"> MD思维导图</li><li><input disabled="" type="checkbox"> MD+JS</li><li><input disabled="" type="checkbox"> MD+Latex插件</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="as"><a href="#as" class="headerlink" title="as"></a>as</h1><p>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaabb<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaa</p><h1 id="易用性改善"><a href="#易用性改善" class="headerlink" title="易用性改善"></a>易用性改善</h1><pre><code>搜狗输入法问题替换常用的 属性设置 常用 自定义标点设置 中文半角2020-6-21 11:19:42</code></pre><h1 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h1><pre><code>我的命名规范标准名称 | 备选中文名称 | 弃用名称Named Anchors | 书签 |tooltip | 弹出提示 |MD | Markdown</code></pre><p>终于把博客建起来了<br>最后采用的是github+<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>的<a href="https://www.hahack.com/hexo-theme-wixo/" target="_blank" rel="noopener">wixo</a>模板<br><a href="" title="这两天有点觉醒。最近都在做有用的事情，就没有继续写HabitU。感觉做什么事情都很顺畅，连洗澡都是。">一些废话</a><br>不过还没有适应Markdown。</p><h2 id="过程记录"><a href="#过程记录" class="headerlink" title="过程记录"></a>过程记录</h2><ol><li>Hexo部署：<a href="https://www.youtube.com/playlist?list=PLD5dyQmlN6xPqBV0cxO7zAe1C8OmDPqfX" target="_blank" rel="noopener">官网视频</a><ul><li>Hexo server 会 watch 改动，不需要-w。<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></li></ul></li></ol><h2 id="WOWs"><a href="#WOWs" class="headerlink" title="WOWs"></a>WOWs</h2><p>VScode中会配合Git显示有改动的行<br>程序员的梗</p><h2 id="其他易用性"><a href="#其他易用性" class="headerlink" title="其他易用性"></a>其他易用性</h2><ul><li>修改CMD字体 ：CMD标题 右键-&gt;属性-&gt;字体<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont</code><br>在右面找到<code>936</code>值双击打开，数值数据更改为<br><code>*YaHeiConsola</code>。</li></ul><h2 id="待完善"><a href="#待完善" class="headerlink" title="待完善"></a>待完善</h2><h3 id="2020-6-21"><a href="#2020-6-21" class="headerlink" title="2020-6-21"></a>2020-6-21</h3><ul><li><input disabled="" type="checkbox"> GitHub的readme</li><li><input disabled="" type="checkbox"> 添加GitHub Hexo Google等到AHK的hot string，查查有没有已有的hot string</li><li><input disabled="" type="checkbox"> 迁移google sites 数据</li><li><input disabled="" type="checkbox"> 选一个theme</li><li><input disabled="" type="checkbox"> Hexo的主题。</li><li><input disabled="" type="checkbox"> 看Git</li><li><input disabled="" type="checkbox"> 设置字体</li><li><input disabled="" type="checkbox"> Hexo Routing + 本文中MD跳转</li><li><input disabled="" type="checkbox"> MD思维导图 之后整理东西，收藏夹和文件</li><li><input disabled="" type="checkbox"> MD+JS</li><li><input disabled="" type="checkbox"> MD+Latex插件</li><li><input disabled="" type="checkbox"> <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">https://hexo.io/docs/server.html</li><li>更多<a href="/2020/0622-Hexo/">Hexo笔记</a></li><li>换了MD的语法，用了新插件</li></ul><ol start="2"><li>部署到GitHub<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">dantefung</a></li><li>学习Markdown： <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Wikipedia</a></li></ol><ul><li>英文版的Wiki中有两个跨行标题定义，更易懂。但是要注意标题前面必须有空行。</li><li>更多MD笔记：</li></ul><ol start="4"><li>删除GitHub的Repository：在Repository的Settings中，第一页最下面。</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div></li></ol>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机-a </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
@@ -50,10 +127,10 @@
     
     <entry>
       <title>MD test</title>
-      <link href="/2020/06/21/MD-test/"/>
-      <url>/2020/06/21/MD-test/</url>
+      <link href="/2020/0621-MD-test/"/>
+      <url>/2020/0621-MD-test/</url>
       
-        <content type="html"><![CDATA[<h1 id="ENG-VER"><a href="#ENG-VER" class="headerlink" title="ENG VER"></a>ENG VER</h1><h1 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h1><h2 id="Sub-heading"><a href="#Sub-heading" class="headerlink" title="Sub-heading"></a>Sub-heading</h2><p>Paragraphs are separated<br>by a blank line.</p><p>Two spaces at the end of a line<br>produces a line break.</p><p>Text attributes <em>italic</em>,<br><strong>bold</strong>, <code>monospace</code>.</p><p>Horizontal rule:</p><hr><p>Strikethrough:<br><del>strikethrough</del></p><p>Bullet list:</p><ul><li>apples</li><li>oranges</li><li>pears</li></ul><p>Numbered list:</p><ol><li>lather</li><li>rinse</li><li>repeat</li></ol><p>An <a href="http://example.com" target="_blank" rel="noopener">example</a>.</p><p><img src="Icon-pictures.png" alt="Image" title="icon"></p><blockquote><p>Markdown uses email-style &gt; characters for blockquoting.</p></blockquote><p>Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.</p><h1 id="中文版本"><a href="#中文版本" class="headerlink" title="中文版本"></a>中文版本</h1><h1 id="一级標題"><a href="#一级標題" class="headerlink" title="一级標題"></a>一级標題</h1><h2 id="二级標題"><a href="#二级標題" class="headerlink" title="二级標題"></a>二级標題</h2><p>段落以空白行分隔。</p><p>行末兩個空格  産生斷行。</p><p>文本屬性：_斜體_、<br><strong>粗體</strong>、<code>等寬字型Monospace</code>。</p><p>水平線：</p><hr><p>列表：</p><ul><li>張三</li><li>李四</li><li>王二</li></ul><p>編號列表：</p><ol><li>不論</li><li>三七</li><li>二十一</li></ol><p><a href="http://example.com" target="_blank" rel="noopener">連結</a></p><p><img src="Icon-pictures.png" alt="圖" title="icon"></p><blockquote><p>Markdown使用電郵用字元「&gt;」來引用。</p></blockquote><p>行間<abbr title="Hypertext Markup Language">HTML</abbr>亦受支援。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="ENG%20VER"><a class="header-anchor" href="#ENG%20VER">good</a> ENG VER</h1><h1 id="Heading"><a class="header-anchor" href="#Heading">good</a> Heading</h1><h2 id="Sub-heading"><a class="header-anchor" href="#Sub-heading">good</a> Sub-heading</h2><p>Paragraphs are separated<br>by a blank line.</p><p>Two spaces at the end of a line<br>produces a line break.</p><p>Text attributes <em>italic</em>,<br><strong>bold</strong>, <code>monospace</code>.</p><p>Horizontal rule:</p><hr><p>Strikethrough:<br><s>strikethrough</s></p><p>Bullet list:</p><ul><li>apples</li><li>oranges</li><li>pears</li></ul><p>Numbered list:</p><ol><li>lather</li><li>rinse</li><li>repeat</li></ol><p>An <a href="http://example.com" target="_blank" rel="noopener">example</a>.</p><p><img src="Icon-pictures.png" alt="Image" title="icon"></p><blockquote><p>Markdown uses email-style &gt; characters for blockquoting.</p></blockquote><p>Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.</p><h1 id="%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%AC"><a class="header-anchor" href="#%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%AC">good</a> 中文版本</h1><h1 id="%E4%B8%80%E7%BA%A7%E6%A8%99%E9%A1%8C"><a class="header-anchor" href="#%E4%B8%80%E7%BA%A7%E6%A8%99%E9%A1%8C">good</a> 一级標題</h1><h2 id="%E4%BA%8C%E7%BA%A7%E6%A8%99%E9%A1%8C"><a class="header-anchor" href="#%E4%BA%8C%E7%BA%A7%E6%A8%99%E9%A1%8C">good</a> 二级標題</h2><p>段落以空白行分隔。</p><p>行末兩個空格  産生斷行。</p><p>文本屬性：<em>斜體</em>、<br><strong>粗體</strong>、<code>等寬字型Monospace</code>。</p><p>水平線：</p><hr><p>列表：</p><ul><li>張三</li><li>李四</li><li>王二</li></ul><p>編號列表：</p><ol><li>不論</li><li>三七</li><li>二十一</li></ol><p><a href="http://example.com" target="_blank" rel="noopener">連結</a></p><p><img src="Icon-pictures.png" alt="圖" title="icon"></p><blockquote><p>Markdown使用電郵用字元「&gt;」來引用。</p></blockquote><p>行間<abbr title="Hypertext Markup Language">HTML</abbr>亦受支援。</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       
       
       
@@ -61,5 +138,7 @@
     
     
   
+  
+    
   
 </search>
