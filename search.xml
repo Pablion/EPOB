@@ -4,13 +4,159 @@
   
     
     <entry>
+      <title>Web Tool</title>
+      <link href="/2020/0623-Web-Tool/"/>
+      <url>/2020/0623-Web-Tool/</url>
+      
+        <content type="html"><![CDATA[<h2>conversion</h2><table><thead><tr><th style="text-align:center">Origin</th><th style="text-align:center">Output</th><th style="text-align:center">Website</th><th style="text-align:center">Usage</th></tr></thead><tbody><tr><td style="text-align:center">Youtube link</td><td style="text-align:center">Markdown Code</td><td style="text-align:center">External🔗<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></td><td style="text-align:center">External🔗<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></td></tr></tbody></table><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css"><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="http://embedyoutube.org/" target="_blank" rel="noopener">http://embedyoutube.org/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li><li id="fn2" class="footnote-item"><p><a href="http://sviridovserg.com/2017/05/22/embed-youtube-to-markdown/" target="_blank" rel="noopener">http://sviridovserg.com/2017/05/22/embed-youtube-to-markdown/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tool </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Cheet Sheets</title>
+      <link href="/2020/0623-Cheet-Sheets/"/>
+      <url>/2020/0623-Cheet-Sheets/</url>
+      
+        <content type="html"><![CDATA[<h2>Windows 10 Hot Keys</h2><p>EN: <a href="https://support.microsoft.com/en-us/help/4026425/windows-10-keyboard-shortcuts" target="_blank" rel="noopener">https://support.microsoft.com/en-us/help/4026425/windows-10-keyboard-shortcuts</a><br>ES: <a href="https://support.microsoft.com/es-es/help/4026425/windows-10-keyboard-shortcuts" target="_blank" rel="noopener">https://support.microsoft.com/es-es/help/4026425/windows-10-keyboard-shortcuts</a><br>CH: <a href="https://support.microsoft.com/zh-cn/help/4026425/windows-10-keyboard-shortcuts" target="_blank" rel="noopener">https://support.microsoft.com/zh-cn/help/4026425/windows-10-keyboard-shortcuts</a></p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> Tool </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>English Words</title>
+      <link href="/2020/0623-English-Words/"/>
+      <url>/2020/0623-English-Words/</url>
+      
+        <content type="html"><![CDATA[<p>deut<br>hierarchy</p><p>Math - related word in MATH.</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> Ability-Language-English </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Random Thoughts</title>
+      <link href="/2020/0623-Random-Thoughts/"/>
+      <url>/2020/0623-Random-Thoughts/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AHK</title>
+      <link href="/2020/0623-AHK/"/>
+      <url>/2020/0623-AHK/</url>
+      
+        <content type="html"><![CDATA[<h1>Auto Hot Key</h1><h2>Hot Strings</h2><h2>Hot Keys</h2><h2>Installation</h2><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> Tool </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HDMI</title>
+      <link href="/2020/0623-HDMI/"/>
+      <url>/2020/0623-HDMI/</url>
+      
+        <content type="html"><![CDATA[<h2>HDMI + nVidia</h2><h3>Problem</h3><p>Black colors may look washed out and gray if you connect your PC to its display via an HDMI cable.</p><h3>Solution</h3><p><a href="https://www.howtogeek.com/285277/how-to-avoid-washed-out-colors-when-using-hdmi-on-your-pc/" target="_blank" rel="noopener" title="external link"><img src="https://www.howtogeek.com/wp-content/uploads/2016/12/ximg_5855bf3c72cdf.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.S9tWmUxi_G.png" alt="settingImage"></a></p><h3>Chinese Ver:</h3><p>英伟达显卡，驱动会导致显示默认发灰。需要设置<br><a href="https://post.smzdm.com/p/aekzrwl4/" target="_blank" rel="noopener">https://post.smzdm.com/p/aekzrwl4/</a></p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Category Map</title>
+      <link href="/2020/0623-Category-Map/"/>
+      <url>/2020/0623-Category-Map/</url>
+      
+        <content type="html"><![CDATA[<ul><li>MAIN</li></ul><ol><li>Tool</li><li>Ablity</li><li>Life<ol><li>Math</li><li>Computer<ol><li>Hardware</li></ol></li></ol></li></ol><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> [MAIN] </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DVI port</title>
+      <link href="/2020/0623-DVI-port/"/>
+      <url>/2020/0623-DVI-port/</url>
+      
+        <content type="html"><![CDATA[<h1>intro</h1><p>Digital Visual Interface，中文称为“数字视频接口”</p><h2>Different types of DVI</h2><p><a href="https://zh.wikipedia.org/wiki/DVI" target="_blank" rel="noopener" title="go wiki"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/DVI_Connector_Types.svg/272px-DVI_Connector_Types.svg.png" alt="DiffTypeDvi"></a></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/DVI_pinout.svg" alt="PINs"></p><h2>what I did:</h2><p><a href="http://www.youtube.com/watch?v=eUjPy1Nrgbs" target="_blank" rel="noopener" title="go YouTube"><img src="http://img.youtube.com/vi/eUjPy1Nrgbs/0.jpg" alt="what I did"></a></p><h2>why it won’t work:</h2><p><a href="https://forums.tomshardware.com/threads/converting-dvi-i-to-dvi-d-by-removing-4-pins.2822259/" target="_blank" rel="noopener">https://forums.tomshardware.com/threads/converting-dvi-i-to-dvi-d-by-removing-4-pins.2822259/</a><br>That wont work. the Reason DVI-I to vga works is because DVI-I carries an analog signal. DVI-D does not carry an analog signal so it requires an active converter to convert the DVI-D’s digital signal into the VGA’s analog signal. Those 4 pins you think are ground are actually part of the analog signal.</p><h3>trivia</h3><p>The limit of bandwidth of both VGA and DVI cable is not enough for higher than 2560*1600@60fps, which includes 4K.</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> Computer-Hardware </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>file name rule</title>
       <link href="/2020/0622-file-name-rule/"/>
       <url>/2020/0622-file-name-rule/</url>
       
-        <content type="html"><![CDATA[<h1 id="固定名称"><a href="#固定名称" class="headerlink" title="固定名称"></a>固定名称</h1><p>#GENE<br>#CERT</p><h1 id="动态"><a href="#动态" class="headerlink" title="动态"></a>动态</h1>]]></content>
+        <content type="html"><![CDATA[<h1>固定名称</h1><p>#GENE<br>#CERT</p><h1>动态</h1><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       
       
+      
+        <tags>
+            
+            <tag> [MAIN] </tag>
+            
+        </tags>
       
     </entry>
     
@@ -34,7 +180,7 @@
       <link href="/2020/0622-Math/"/>
       <url>/2020/0622-Math/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2 id="常用缩写"><a href="#常用缩写" class="headerlink" title="常用缩写"></a>常用缩写</h2><p>WLOG: without loss of generality  |  Sin pérdida de generalidad<br>BWOC | by way of contradiction<br>sps | suppose</p><h2 id="读音"><a href="#读音" class="headerlink" title="读音"></a>读音</h2><p>$N_O$ N-nought n subscript zero N-zero N-null<br>Aleph-nought<br>aleph-null</p>]]></content>
+        <content type="html"><![CDATA[<h2>常用缩写</h2><p>WLOG: without loss of generality  |  Sin pérdida de generalidad<br>BWOC | by way of contradiction<br>sps | suppose</p><h2>读音</h2><p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>N</mi><mi>O</mi></msub></mrow><annotation encoding="application/x-tex">N_O</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.10903em;">N</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.10903em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord mathit" style="margin-right:0.02778em;">O</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> N-nought n subscript zero N-zero N-null<br>Aleph-nought<br>aleph-null</p><h2>单词</h2><p>parity</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       
       
       
@@ -47,8 +193,14 @@
       <link href="/2020/0622-Configurations/"/>
       <url>/2020/0622-Configurations/</url>
       
-        <content type="html"><![CDATA[<h1 id="我的配置"><a href="#我的配置" class="headerlink" title="我的配置"></a>我的配置</h1><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>_config.yml</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">permalink: :year&#x2F;:month:day-:title&#x2F;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1>Personalisized Configurations</h1><h2>File Name Rules</h2><h2>App Settings / Preferences</h2><h3>Hexo</h3><p>_config.yml</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">permalink: :year&#x2F;:month:day-:title&#x2F;</span><br></pre></td></tr></table></figure><p>for AHK, go -&gt; tools.ahk</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       
+      
+      <categories>
+          
+          <category> [MAIN] </category>
+          
+      </categories>
       
       
     </entry>
@@ -60,8 +212,14 @@
       <link href="/2020/0622-Hexo/"/>
       <url>/2020/0622-Hexo/</url>
       
-        <content type="html"><![CDATA[<h2>Hexo经验：</h2><ul><li>Spawn failed：没有配置GitHub用户信息</li><li>JSON Front-matter<br>除了 YAML 外，你也可以使用 JSON 来编写 Front-matter，只要将 — 代换成 ;;; 即可。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;title&quot;: &quot;Hello World&quot;,</span><br><span class="line">&quot;date&quot;: &quot;2013&#x2F;7&#x2F;13 20:46:25&quot;</span><br><span class="line">;;;</span><br></pre></td></tr></table></figure></li><li>链接地址在文件夹目录中或浏览器地址栏中复制。EG：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[link](&#x2F;2020&#x2F;0621-MD-test&#x2F; &#39;tooltip&#39;)</span><br></pre></td></tr></table></figure>以下的是服务器端用的，不能在MD中用<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo.locals.get(&#39;posts&#39;)</span><br><span class="line">&lt;%- url_for(path, [option]) %&gt;</span><br></pre></td></tr></table></figure></li></ul><h2><a href=":https://hexo.io/zh-cn/docs/plugins.html">插件</a></h2><p>安装的时候不用变更<code>-config.yml</code></p><h2>过程记录</h2><ul><li>换了MD的语法，用了新插件 <a href="https://github.com/niemingzhao/hexo-renderer-markdown" target="_blank" rel="noopener">https://github.com/niemingzhao/hexo-renderer-markdown</a><br>多了很多anchorSymbol，本来想卸载，后来发现不用卸载，可以直接在_config.yml中设置。<br>设置之后发现 hexo generate 不能render了。<br>只能去掉。这个插件也太坑了。前后花了四个多小时。啥都没做。<br>最后装了一个 <a href="https://github.com/LouisBarranqueiro/hexo-footnotes" target="_blank" rel="noopener" title="GitHub Page"><code>hexo-footnotes</code></a> 就解决了。<br>后来发现上面这个插件也是好用的。。</li></ul><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+        <content type="html"><![CDATA[<h2>Hexo经验：</h2><ul><li>Spawn failed：没有配置GitHub用户信息</li><li>JSON Front-matter<br>除了 YAML 外，你也可以使用 JSON 来编写 Front-matter，只要将 — 代换成 ;;; 即可。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;title&quot;: &quot;Hello World&quot;,</span><br><span class="line">&quot;date&quot;: &quot;2013&#x2F;7&#x2F;13 20:46:25&quot;</span><br><span class="line">;;;</span><br></pre></td></tr></table></figure></li><li>链接地址在文件夹目录中或浏览器地址栏中复制。EG：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[link](&#x2F;2020&#x2F;0621-MD-test&#x2F; &#39;tooltip&#39;)</span><br></pre></td></tr></table></figure>以下的是服务器端用的，不能在MD中用<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo.locals.get(&#39;posts&#39;)</span><br><span class="line">&lt;%- url_for(path, [option]) %&gt;</span><br></pre></td></tr></table></figure></li></ul><h2><a href=":https://hexo.io/zh-cn/docs/plugins.html">插件</a></h2><p>安装的时候可以不变更<code>-config.yml</code><br>当前插件不支持多级主题。</p><h2>过程记录</h2><ul><li>换了MD的语法，用了新插件<a href="https://github.com/niemingzhao/hexo-renderer-markdown" target="_blank" rel="noopener"><code>hexo-renderer-markdown</code></a><br>多了很多anchorSymbol，本来想卸载，后来发现不用卸载，可以直接在_config.yml中设置。<br>设置之后发现 hexo generate 不能render了。<br>只能去掉。这个插件也太坑了。前后花了四个多小时。啥都没做。<br>最后装了一个 <a href="https://github.com/LouisBarranqueiro/hexo-footnotes" target="_blank" rel="noopener" title="GitHub Page"><code>hexo-footnotes</code></a> 就解决了。<br>后来发现上面这个插件也是好用的。。</li></ul><h2>Open Problem</h2><ul><li><input type="checkbox" id="checkbox0"><label for="checkbox0">multiple category hierarchies support (of extension </label><a href="https://github.com/niemingzhao/hexo-renderer-markdown" target="_blank" rel="noopener"><code>hexo-renderer-markdown</code></a> /theme wixo)<ul><li>Reading material: <a href="https://sunhwee.com/posts/65d7181d.html" target="_blank" rel="noopener">https://sunhwee.com/posts/65d7181d.html</a></li></ul></li><li>[ ]</li></ul><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       
+      
+      <categories>
+          
+          <category> computer-web-blog </category>
+          
+      </categories>
       
       
     </entry>
@@ -105,7 +263,7 @@
       <link href="/2020/0621-hello-world/"/>
       <url>/2020/0621-hello-world/</url>
       
-        <content type="html"><![CDATA[<h1>Hello world</h1><p>终于把博客建起来了<br>最后采用的是github+<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>的<a href="https://www.hahack.com/hexo-theme-wixo/" target="_blank" rel="noopener">wixo</a>模板<br><a href="" title="这两天有点觉醒。最近都在做有用的事情，就没有继续写HabitU。感觉做什么事情都很顺畅，连洗澡都是。">一些废话</a><br>不过还没有适应Markdown。</p><h2>过程记录</h2><ol><li>Hexo部署：<a href="https://www.youtube.com/playlist?list=PLD5dyQmlN6xPqBV0cxO7zAe1C8OmDPqfX" target="_blank" rel="noopener">官网视频</a><ul><li>Hexo server 会 watch 改动，不需要-w。<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></li><li>更多<a href="/2020/0622-Hexo/">Hexo笔记</a></li><li>换了MD的语法，用了新插件</li></ul></li><li>部署到GitHub<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">dantefung</a></li><li>学习Markdown： <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Wikipedia</a><ul><li>英文版的Wiki中有两个跨行标题定义，更易懂。但是要注意标题前面必须有空行。</li><li>更多MD笔记：</li></ul></li><li>删除GitHub的Repository：在Repository的Settings中，第一页最下面。</li></ol><h2>WOWs</h2><p>VScode中会配合Git显示有改动的行<br>程序员的梗</p><h2>易用性改善</h2><ul><li><p>修改CMD字体 ：CMD标题 右键-&gt;属性-&gt;字体<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont</code><br>在右面找到<code>936</code>值双击打开，数值数据更改为<br><code>*YaHeiConsola</code>。</p><p>搜狗输入法问题<br>替换常用的 属性设置 常用 自定义标点设置 中文半角<br>2020-6-21 11:19:42</p></li></ul><h2>命名规范</h2><pre><code>我的命名规范标准名称 | 备选中文名称 | 弃用名称Named Anchors | 书签 |tooltip | 弹出提示 |MD | Markdown</code></pre><h2>待完善</h2><h3>2020-6-21</h3><ul><li><input type="checkbox" id="checkbox0" checked="true"><label for="checkbox0">GitHub的readme</label></li><li><input type="checkbox" id="checkbox1" checked="true"><label for="checkbox1">选一个theme</label></li><li><input type="checkbox" id="checkbox2" checked="true"><label for="checkbox2">Hexo的主题。</label></li><li><input type="checkbox" id="checkbox3" checked="true"><label for="checkbox3">看Git</label></li><li><input type="checkbox" id="checkbox4" checked="true"><label for="checkbox4">设置字体</label></li><li><input type="checkbox" id="checkbox5" checked="true"><label for="checkbox5">Hexo Routing + 本文中MD跳转</label></li><li><input type="checkbox" id="checkbox6" checked="true"><label for="checkbox6"></label><s>MD思维导图 之后整理东西，收藏夹和文件</s> <strong>abandonded</strong></li><li><input type="checkbox" id="checkbox7" checked="true"><label for="checkbox7">MD+JS</label></li><li><input type="checkbox" id="checkbox8" checked="true"><label for="checkbox8">MD+Latex插件</label></li></ul><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css"><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">https://hexo.io/docs/server.html</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+        <content type="html"><![CDATA[<h1>Hello world</h1><p>终于把博客建起来了<br>最后采用的是github+<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>的<a href="https://www.hahack.com/hexo-theme-wixo/" target="_blank" rel="noopener">wixo</a>模板<br><a href="" title="这两天有点觉醒。最近都在做有用的事情，就没有继续写HabitU。感觉做什么事情都很顺畅，连洗澡都是。">一些废话</a><br>不过还没有适应Markdown。</p><h2>过程记录</h2><ol><li>Hexo部署：<a href="https://www.youtube.com/playlist?list=PLD5dyQmlN6xPqBV0cxO7zAe1C8OmDPqfX" target="_blank" rel="noopener">官网视频</a><ul><li>Hexo server 会 watch 改动，不需要-w。<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></li><li>更多<a href="/2020/0622-Hexo/">Hexo笔记</a></li><li>换了MD的语法，用了新插件</li></ul></li><li>部署到GitHub<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">dantefung</a></li><li>学习Markdown： <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Wikipedia</a><ul><li>英文版的Wiki中有两个跨行标题定义，更易懂。但是要注意标题前面必须有空行。</li><li>更多MD笔记：</li></ul></li><li>删除GitHub的Repository：在Repository的Settings中，第一页最下面。</li></ol><h2>WOWs</h2><p>VScode中会配合Git显示有改动的行<br>程序员的梗</p><h2>易用性改善</h2><ul><li><p>修改CMD字体 ：CMD标题 右键-&gt;属性-&gt;字体<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont</code><br>在右面找到<code>936</code>值双击打开，数值数据更改为<br><code>*YaHeiConsola</code>。</p><p>搜狗输入法问题<br>替换常用的 属性设置 常用 自定义标点设置 中文半角<br>2020-6-21 11:19:42</p></li></ul><h2>命名规范</h2><pre><code>我的命名规范标准名称 | 备选中文名称 | 弃用名称Named Anchors | 书签 |tooltip | 弹出提示 |MD | Markdown</code></pre><h2>Plugin Bug</h2><p>不支持中文标题。</p><h2>待完善</h2><p>GitHub的readme</p><h3>2020-6-21完成</h3><p>选一个theme<br>Hexo的主题。<br>看Git<br>设置字体<br>Hexo Routing + 本文中MD跳转<br><s>MD思维导图 之后整理东西，收藏夹和文件</s> <strong>abandonded</strong><br>MD+JS<br>MD+Latex插件</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css"><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">https://hexo.io/docs/server.html</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
       
       
       <categories>
