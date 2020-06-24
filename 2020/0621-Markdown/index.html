@@ -133,18 +133,30 @@
 </tr>
 </tbody>
 </table>
+<h3>表格</h3>
+<ul>
+<li>如果想合并行/列/显示复杂内容，还是要借助HTML</li>
+</ul>
 <h3>折叠区 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h3>
-<p>tag: 隐藏，展示</p>
 <details>
 <summary>一直显示</summary>
 展开折叠显示
 </details>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">summary</span>&gt;</span>一直显示<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">展开折叠显示</span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>不好用<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">region i &#123; information 示例</span><br><span class="line">← information icon</span><br><span class="line">&#125; region information 示例</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">region i &#123; information 示例</span><br><span class="line">← information icon</span><br><span class="line">&#125; region information 示例</span><br></pre></td></tr></table></figure>
 <h3>流程图<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st&#x3D;&gt;start: Start</span><br><span class="line">e&#x3D;&gt;end</span><br><span class="line">op&#x3D;&gt;operation: My Operation</span><br><span class="line">cond&#x3D;&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
-<h3>时序图<sup class="footnote-ref"><a href="#fn3" id="fnref3:1">[3:1]</a></sup></h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
+<p>不用markdown渲染器的渲染规则不同<br>
+以下是一些例子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">s&#x3D;&gt;start: Start of Flow</span><br><span class="line">e&#x3D;&gt;end: End of Flow</span><br><span class="line">o&#x3D;&gt;operation: Operation Descreption</span><br><span class="line">cond&#x3D;&gt;condition: Condition Descreption</span><br><span class="line"></span><br><span class="line">s-&gt;o-&gt;cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;o</span><br></pre></td></tr></table></figure>
+<p>Code：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[ESCAPE]<span class="code">```</span>flow</span><br><span class="line">s=&gt;start: Start of Flow</span><br><span class="line">e=&gt;end: End of Flow</span><br><span class="line">o=&gt;operation: Operation Descreption</span><br><span class="line">cond=&gt;condition: Condition Descreption</span><br><span class="line"></span><br><span class="line">s-&gt;o-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;o</span><br><span class="line">cond(no)-&gt;op</span><br><span class="line">[ESCAPE]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### Cheatsheet</span><br><span class="line">- From: https:&#x2F;&#x2F;www.jianshu.com&#x2F;p&#x2F;a9bd83b768d5</span><br><span class="line">  &#96;&#96;&#96;markdown</span><br><span class="line">  ## 操作块(格式为:变量&#x3D;&gt;操作块: 备注名)</span><br><span class="line">  st&#x3D;&gt; start: 开始</span><br><span class="line">  e&#x3D;&gt;end: 结束</span><br><span class="line">  #普通操作块 opration</span><br><span class="line">  op1&#x3D;&gt;opration: 第一个操作块</span><br><span class="line">  op2&#x3D;&gt;opration: 第二个操作块</span><br><span class="line">  #判断块 condition</span><br><span class="line">  cond1&#x3D;&gt;condition: 第一个判断</span><br><span class="line">  cond2&#x3D;&gt;condition: 第二个判断</span><br><span class="line">    </span><br><span class="line">  #输入输出块 inputoutput[平行四边形]</span><br><span class="line">  io1&#x3D;&gt;inputoutput: 输入输出块1</span><br><span class="line">  io2&#x3D;&gt;inputoutput: 输入输出块2</span><br><span class="line">  #子任务块</span><br><span class="line">  sub1&#x3D;&gt;subroutine: 子任务1</span><br><span class="line">  sub2&#x3D;&gt;subroutine: 子任务2</span><br><span class="line">    </span><br><span class="line">  ## 判断和位置控制</span><br><span class="line">  #判断流程控制</span><br><span class="line">  cond1(yes)-&gt;op1  #yes 的时候回到 op1</span><br><span class="line">  cond1(no)-&gt;e   #no 的时候 去结束</span><br><span class="line">    </span><br><span class="line">  #位置指定</span><br><span class="line">  cond1(no)-&gt;op2(right)-&gt;op1 #控制 op2 位置置于右边，再由op2 返回 op1 (好像不能向左)</span><br><span class="line">  #还可以这样 cond1(no,right)</span><br><span class="line">  cond1(yes)-&gt;e </span><br><span class="line">    </span><br><span class="line">  ## 流程控制</span><br><span class="line">  #分着写</span><br><span class="line">  st-&gt;op1</span><br><span class="line">  op1-&gt;e</span><br><span class="line">    </span><br><span class="line">  #合着写</span><br><span class="line">  st-&gt;op1-&gt;e</span><br><span class="line">    </span><br><span class="line">  #判断也是一样：</span><br><span class="line">  st-&gt;cond</span><br><span class="line">  cond(yes)-&gt;io</span><br><span class="line">  cond(no)-&gt;op1</span><br></pre></td></tr></table></figure>
+<h4>another flowchart syntex</h4>
+<p>which doesn’t work<br>
+<a href="https://zhuanlan.zhihu.com/p/28468233" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/28468233</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[ESCAPE]&#96;&#96;&#96;flow</span><br><span class="line">s&#x3D;start:开始</span><br><span class="line">e&#x3D;end:结束</span><br><span class="line">o&#x3D;operation:操作项</span><br><span class="line">s-o-e</span><br><span class="line">[ESCAPE]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">### 时序图[^maxiang]</span><br><span class="line">&#96;&#96;&#96;sequence</span><br><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
 <h3>整体性的经验</h3>
 <p>[]看来是特殊符号。<br>
 []中的内容，发现的特殊用法记录一下。<br>
@@ -153,7 +165,7 @@
 <h1>好用的学习网站</h1>
 <ul>
 <li>很全的文档：<a href="https://assemble.io/docs/Cheatsheet-Markdown.html" target="_blank" rel="noopener">https://assemble.io/docs/Cheatsheet-Markdown.html</a></li>
-<li>在线编译+中等文档<sup class="footnote-ref"><a href="#fn3" id="fnref3:2">[3:2]</a></sup></li>
+<li>在线编译+中等文档<sup class="footnote-ref"><a href="#fn3" id="fnref3:1">[3:1]</a></sup></li>
 <li>Mac 下的工具 <a href="https://typora.io/" target="_blank" rel="noopener">https://typora.io/</a></li>
 </ul>
 <h1>反思</h1>
@@ -161,19 +173,18 @@
 之前一直想建网站原来就应该用GitHub Pages，就因为差一个Hexo模板，在Google Sites里搞了半天。<br>
 因为之前一直<strong>没有仔细查过别人的经验</strong>，就自己想当然，竟然还想自己写一个。<br>
 Hexo发现是在<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">dantefung的博客</a>，找他的第一篇笔记（当时还不知道能搜索）。</p>
-<p>backticks ``</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Example text here...</span><br></pre></td></tr></table></figure>
 <p>hexo-tag-katex<br>
 格式太麻烦 不好用<br>
 <a href="https://github.com/iamprasad88/hexo-tag-katex" target="_blank" rel="noopener">https://github.com/iamprasad88/hexo-tag-katex</a></p>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css"><hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://www.jianshu.com/p/3f13850d66ea" target="_blank" rel="noopener">https://www.jianshu.com/p/3f13850d66ea</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+<li id="fn1" class="footnote-item"><p><a href="https://www.jianshu.com/p/3f13850d66ea" target="_blank" rel="noopener">https://www.jianshu.com/p/3f13850d66ea</a><br>
+tag: 隐藏，展示 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn2" class="footnote-item"><p><a href="https://www.w3cschool.cn/lme/93u61srz.html" target="_blank" rel="noopener">https://www.w3cschool.cn/lme/93u61srz.html</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn3" class="footnote-item"><p>(<a href="https://maxiang.io/" target="_blank" rel="noopener">https://maxiang.io/</a>) <a href="#fnref3" class="footnote-backref">↩︎</a> <a href="#fnref3:1" class="footnote-backref">↩︎</a> <a href="#fnref3:2" class="footnote-backref">↩︎</a></p>
+<li id="fn3" class="footnote-item"><p>(<a href="https://maxiang.io/" target="_blank" rel="noopener">https://maxiang.io/</a>) <a href="#fnref3" class="footnote-backref">↩︎</a> <a href="#fnref3:1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
@@ -204,8 +215,6 @@ Hexo发现是在<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc
 		
 	
 		
-			
-		
 	
 		
 			
@@ -218,16 +227,6 @@ Hexo发现是在<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc
 		
 	
 		
-			
-		
-	
-		
-			
-		
-	
-		
-	
-		
 	
 		
 			
@@ -235,22 +234,30 @@ Hexo发现是在<a href="https://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc
 	
 		
 			
-			
 		
 	
 		
 	
 		
+	
+		
+			
+		
+	
+		
 			
 			
-			
+		
+	
+		
+	
 	
 	
 		<li class="prev"><a href="/2020/0621-MATLAB/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2020/0621-MD-test/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
