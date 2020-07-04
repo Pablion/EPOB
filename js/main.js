@@ -34,6 +34,7 @@ function scrollToTop(){
 // 侧面目录
 function switchTreeOrIndex(){
 	$('#sidebar-toggle').on('click', function () {
+		console.log('im good:');
 		if ($('#sidebar').hasClass('on')){
 			scrollOff();
 		}else{
